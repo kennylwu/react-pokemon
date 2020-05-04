@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  margin: 5px;
+  font-family: 'kalam';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  min-height: 500px;
+}
+.card-img-top {
+  max-width: 400px;
+  max-height: 350px;
+}
